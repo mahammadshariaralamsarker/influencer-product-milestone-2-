@@ -1,0 +1,60 @@
+@media screen and (max-width: 576px) {
+ /* Header Part */
+    nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  nav h3 {
+    width: 100%;
+    justify-content: center;
+  }
+  .ankor {
+    width: 100%;
+  }
+  .bannner{
+    flex-direction: column;
+  }
+
+  .banner-content{
+    width: 100%;
+    order: 2;
+    
+  }
+  .banner-img{
+    margin-top: 20px;
+    order: 1;
+    text-align: center;  
+    width: 100%;
+  }
+  .banner-title{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .banner-description{
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .banner-button{
+    margin-bottom: 20px;
+  }
+  .img-1{
+    height: 250px;
+  }
+  .img-2{
+    height: 200px;
+  }
+  .logo{
+    grid-template-columns: repeat(3,1fr);    ;
+    gap: 20px;
+  }
+  /* main part */
+  .box-container{
+    grid-template-columns: 1fr;
+  }
+  .feature{
+    grid-template-columns: 1fr;
+  }
+  .feature-content h1 {
+    font-size: 26px;
+  }
+}
